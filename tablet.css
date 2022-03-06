@@ -1,0 +1,100 @@
+.columns{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: -15px;
+    padding: 10px;
+}
+.box1{
+    height:auto;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    margin-top: -15px;
+}
+.box h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.box p{
+    font-size: 1rem;
+}
+
+/* My Image */
+#foto12{
+    height: 260px;
+}
+.about img{
+    padding: 0px 0px;
+    width: 450px;
+    height: 750px;
+    margin: auto;
+}
+.about blockquote{
+    font-weight:bold;
+    color: rgb(0, 0, 0);
+}
+.name{
+    padding: 0px;
+}
+.name h2{
+    font-size: 1.7rem;
+    font-weight:bold;
+    color: rgb(0, 0, 0);
+}
+.name p{
+    font-size: 1rem;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+
+}
+.about{
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+    padding: 15px;
+}
+
+
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Headings */
+.heading{
+    font-size: 1.3rem;
+}
+
+/* Gallery Images */
+.gallery img{
+    width: 270px;
+    height: 360px;
+}
+
+/* About Section */
+.about{
+    flex-direction: column;
+}
+.about h2{
+    text-align: center;
+}
+
+.about img{
+    width: 200px;
+    height: 150px;
+    padding: 0px 15px;
+}
+/* Message box */
+#message{
+    width: 40%;
+    height: 200px;
+}
